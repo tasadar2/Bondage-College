@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "esnext"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

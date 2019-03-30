@@ -1,6 +1,8 @@
 Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
 0,0,0,,New Game,,0,0,0,"LoadChapter(""C001_BeforeClass"")"
 0,0,0,,Load Game,,0,0,0,LoadScreen()
+0,0,0,,Export Profile,,0,0,0,ExportProfile()
+0,0,0,,Import Profile,,0,0,0,ImportProfile()
 0,0,0,,Select Chapter,"Select the chapter you want to play.|If you never tried the game, start on chapter 1.",10,0,0,
 0,0,0,,Change Language,,30,0,0,
 0,0,0,,Game Credits,A huge THANK YOU to everyone|that contributed to the game.,0,0,0,RollCredits()

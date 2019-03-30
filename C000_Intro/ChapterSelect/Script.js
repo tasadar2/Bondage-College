@@ -122,3 +122,14 @@ function C000_Intro_ChapterSelect_RollCredits() {
 	C000_Intro_ChapterSelect_CreditPosition = 0;
 	C000_Intro_ChapterSelect_ThankYouCount = 0;
 }
+
+// When the user wants to load, we call the load screen
+function C000_Intro_ChapterSelect_ExportProfile() {
+	Profile.exportProfile();
+}
+
+// When the user wants to load, we call the load screen
+function C000_Intro_ChapterSelect_ImportProfile() {
+	Profile.importProfile();
+	CSVCache = {};
+}
